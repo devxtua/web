@@ -1555,6 +1555,11 @@ body header nav li .show a:hover {
   color: #bf1111;
 }
 
+body header nav li .show.viber a:hover {
+  font-weight: 500;
+  color: #7a59e9;
+}
+
 body header nav li .show:before {
   bottom: 0;
   right: 0;
@@ -2192,12 +2197,12 @@ body section.content.home_page .contacts_wrap .location_wrap .studio_location {
   margin: 0 auto;
 }
 
-body section.content .projects_wrap .items_wrap .page_item img, body section.content.portfolio_page .items_wrap .page_item img {
+body section.content.portfolio_page .items_wrap .page_item img {
   -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body section.content .projects_wrap .items_wrap .page_item .text_block, body section.content.portfolio_page .items_wrap .page_item .text_block {
+body section.content.portfolio_page .items_wrap .page_item .text_block {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2213,7 +2218,7 @@ body section.content .projects_wrap .items_wrap .page_item .text_block, body sec
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body section.content .projects_wrap .items_wrap .page_item .text_block a, body section.content.portfolio_page .items_wrap .page_item .text_block a {
+body section.content.portfolio_page .items_wrap .page_item .text_block a {
   display: block;
   margin: 0 auto;
   width: 120px;
@@ -2222,12 +2227,12 @@ body section.content .projects_wrap .items_wrap .page_item .text_block a, body s
   text-align: center;
 }
 
-body section.content .projects_wrap .items_wrap .page_item:hover .text_block, body section.content.portfolio_page .items_wrap .page_item:hover .text_block {
+body section.content.portfolio_page .items_wrap .page_item:hover .text_block {
   opacity: 1;
   visibility: visible;
 }
 
-body section.content .projects_wrap .items_wrap .page_item:hover img, body section.content.portfolio_page .items_wrap .page_item:hover img {
+body section.content.portfolio_page .items_wrap .page_item:hover img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -2252,22 +2257,22 @@ body section.content.portfolio_page .items_wrap .page_item img {
   width: 100%;
 }
 
-body section.content .services_wrap, body section.content.services_page {
+body section.content .services_wrap {
   max-width: 100%;
   margin: 0px;
 }
 
-body section.content .services_wrap .service, body section.content.services_page .service {
+body section.content .services_wrap .service {
   padding-top: 0px;
   /* базовый контейнер вкладок */
 }
 
-body section.content .services_wrap .service .service_title, body section.content.services_page .service .service_title {
+body section.content .services_wrap .service .service_title {
   text-align: center;
   font-size: 2.5em;
 }
 
-body section.content .services_wrap .service .main_text, body section.content.services_page .service .main_text {
+body section.content .services_wrap .service .main_text {
   max-width: 1200px;
   margin: 1em auto;
   text-align: justify;
@@ -2275,34 +2280,34 @@ body section.content .services_wrap .service .main_text, body section.content.se
   line-height: 1.4em;
 }
 
-body section.content .services_wrap .service .service_description, body section.content.services_page .service .service_description {
+body section.content .services_wrap .service .service_description {
   overflow: auto;
 }
 
-body section.content .services_wrap .service .service_description .service_text p, body section.content.services_page .service .service_description .service_text p {
+body section.content .services_wrap .service .service_description .service_text p {
   text-align: justify;
   font-size: 1.2em;
   line-height: 1.4em;
 }
 
-body section.content .services_wrap .service .service_description .service_img img, body section.content.services_page .service .service_description .service_img img {
+body section.content .services_wrap .service .service_description .service_img img {
   width: 100%;
 }
 
-body section.content .services_wrap .service .tabs_block, body section.content.services_page .service .tabs_block {
+body section.content .services_wrap .service .tabs_block {
   width: 100%;
   margin-top: 40px;
   /* панель навигации вкладок */
   /* блоки вкладок с содержанием */
 }
 
-body section.content .services_wrap .service .tabs_block:after, body section.content.services_page .service .tabs_block:after {
+body section.content .services_wrap .service .tabs_block:after {
   content: "";
   display: block;
   clear: both;
 }
 
-body section.content .services_wrap .service .tabs_block > ul, body section.content.services_page .service .tabs_block > ul {
+body section.content .services_wrap .service .tabs_block > ul {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -2315,19 +2320,19 @@ body section.content .services_wrap .service .tabs_block > ul, body section.cont
       flex-wrap: wrap;
 }
 
-body section.content .services_wrap .service .tabs_block > ul li, body section.content.services_page .service .tabs_block > ul li {
+body section.content .services_wrap .service .tabs_block > ul li {
   display: block;
 }
 
-body section.content .services_wrap .service .tabs_block > ul li.active, body section.content .services_wrap .service .tabs_block > ul li.active:hover, body section.content.services_page .service .tabs_block > ul li.active, body section.content.services_page .service .tabs_block > ul li.active:hover {
+body section.content .services_wrap .service .tabs_block > ul li.active, body section.content .services_wrap .service .tabs_block > ul li.active:hover {
   background: #bf1111;
 }
 
-body section.content .services_wrap .service .tabs_block > ul li:hover, body section.content.services_page .service .tabs_block > ul li:hover {
+body section.content .services_wrap .service .tabs_block > ul li:hover {
   background: #2f333d;
 }
 
-body section.content .services_wrap .service .tabs_block .tabs, body section.content.services_page .service .tabs_block .tabs {
+body section.content .services_wrap .service .tabs_block .tabs {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2340,7 +2345,7 @@ body section.content .services_wrap .service .tabs_block .tabs, body section.con
   /* список вкладок */
 }
 
-body section.content .services_wrap .service .tabs_block .tabs li, body section.content.services_page .service .tabs_block .tabs li {
+body section.content .services_wrap .service .tabs_block .tabs li {
   text-align: center;
   padding: 10px 10px;
   -webkit-box-flex: 1;
@@ -2356,19 +2361,18 @@ body section.content .services_wrap .service .tabs_block .tabs li, body section.
   /* активная вкладка */
 }
 
-body section.content .services_wrap .service .tabs_block .tabs li.active, body section.content.services_page .service .tabs_block .tabs li.active {
+body section.content .services_wrap .service .tabs_block .tabs li.active {
   background: #bf1111;
   color: #fff;
   border-color: #bf1111;
 }
 
-body section.content .services_wrap .service .tabs_block .box, body section.content.services_page .service .tabs_block .box {
+body section.content .services_wrap .service .tabs_block .box {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 300px;
   display: none;
   text-align: left;
-  background: #2f333d;
   color: #fff;
   border-radius: .2em;
   -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -2376,12 +2380,11 @@ body section.content .services_wrap .service .tabs_block .box, body section.cont
   /* активный блок при загрузке */
 }
 
-body section.content .services_wrap .service .tabs_block .box p, body section.content.services_page .service .tabs_block .box p {
+body section.content .services_wrap .service .tabs_block .box p {
   margin-bottom: 15px;
-  text-align: justify;
 }
 
-body section.content .services_wrap .service .tabs_block .box .btn_wrap, body section.content.services_page .service .tabs_block .box .btn_wrap {
+body section.content .services_wrap .service .tabs_block .box .btn_wrap {
   position: absolute;
   bottom: 50px;
   width: 98%;
@@ -2396,23 +2399,23 @@ body section.content .services_wrap .service .tabs_block .box .btn_wrap, body se
           align-items: center;
 }
 
-body section.content .services_wrap .service .tabs_block .box .btn_wrap > *, body section.content.services_page .service .tabs_block .box .btn_wrap > * {
+body section.content .services_wrap .service .tabs_block .box .btn_wrap > * {
   line-height: 20px;
 }
 
-body section.content .services_wrap .service .tabs_block .box .btn_wrap span, body section.content.services_page .service .tabs_block .box .btn_wrap span {
+body section.content .services_wrap .service .tabs_block .box .btn_wrap span {
   font-size: 1.6em;
   margin-right: 250px;
   padding: 10px 20px;
 }
 
-body section.content .services_wrap .service .tabs_block .box .btn_wrap a, body section.content.services_page .service .tabs_block .box .btn_wrap a {
+body section.content .services_wrap .service .tabs_block .box .btn_wrap a {
   padding: 10px 40px;
   margin: 0 1em;
   font-size: 1.2em;
 }
 
-body section.content .services_wrap .service .tabs_block .box .slide_text, body section.content.services_page .service .tabs_block .box .slide_text {
+body section.content .services_wrap .service .tabs_block .box .slide_text {
   color: #fff;
   margin: 0 auto;
   padding: 0 20px;
@@ -2424,22 +2427,22 @@ body section.content .services_wrap .service .tabs_block .box .slide_text, body 
           justify-content: space-between;
 }
 
-body section.content .services_wrap .service .tabs_block .box .slide_text li, body section.content .services_wrap .service .tabs_block .box .slide_text p, body section.content.services_page .service .tabs_block .box .slide_text li, body section.content.services_page .service .tabs_block .box .slide_text p {
+body section.content .services_wrap .service .tabs_block .box .slide_text li, body section.content .services_wrap .service .tabs_block .box .slide_text p {
   font-size: 1.2em;
   line-height: 1.4em;
   text-align: justify;
 }
 
-body section.content .services_wrap .service .tabs_block .box .slide_text img, body section.content.services_page .service .tabs_block .box .slide_text img {
+body section.content .services_wrap .service .tabs_block .box .slide_text img {
   max-width: 30%;
   align: left;
 }
 
-body section.content .services_wrap .service .tabs_block .box.visible, body section.content .services_wrap .service .tabs_block .box.open_tab, body section.content.services_page .service .tabs_block .box.visible, body section.content.services_page .service .tabs_block .box.open_tab {
+body section.content .services_wrap .service .tabs_block .box.visible, body section.content .services_wrap .service .tabs_block .box.open_tab {
   display: block;
 }
 
-body section.content .services_wrap .service .packages_block, body section.content.services_page .service .packages_block {
+body section.content .services_wrap .service .packages_block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2454,46 +2457,45 @@ body section.content .services_wrap .service .packages_block, body section.conte
   padding-right: 20px;
 }
 
-body section.content .services_wrap .service .packages_block .package, body section.content.services_page .service .packages_block .package {
+body section.content .services_wrap .service .packages_block .package {
   width: 25%;
   text-align: center;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-body section.content .services_wrap .service .packages_block .package .package_descritpion ul, body section.content.services_page .service .packages_block .package .package_descritpion ul {
+body section.content .services_wrap .service .packages_block .package .package_descritpion ul {
   list-style-type: none;
   padding: 0px;
   margin-top: 0px;
 }
 
-body section.content .services_wrap .service .packages_block .package .package_descritpion ul li, body section.content.services_page .service .packages_block .package .package_descritpion ul li {
+body section.content .services_wrap .service .packages_block .package .package_descritpion ul li {
   padding: 10px;
   height: 37px;
 }
 
-body section.content .services_wrap .service .packages_block .package .package_descritpion ul li:nth-of-type(even), body section.content.services_page .service .packages_block .package .package_descritpion ul li:nth-of-type(even) {
+body section.content .services_wrap .service .packages_block .package .package_descritpion ul li:nth-of-type(even) {
   background: #eee;
 }
 
-body section.content .services_wrap .service .packages_block .package .package_descritpion ul li img, body section.content.services_page .service .packages_block .package .package_descritpion ul li img {
+body section.content .services_wrap .service .packages_block .package .package_descritpion ul li img {
   width: 15px;
 }
 
 body section.content .services_wrap .service .packages_block .package_title,
-body section.content .services_wrap .service .packages_block .package_price, body section.content.services_page .service .packages_block .package_title,
-body section.content.services_page .service .packages_block .package_price {
+body section.content .services_wrap .service .packages_block .package_price {
   line-height: 50px;
   font-size: 22px;
   color: #fff;
   background-color: #22252b;
 }
 
-body section.content .services_wrap .service .packages_block .package_title, body section.content.services_page .service .packages_block .package_title {
+body section.content .services_wrap .service .packages_block .package_title {
   font-size: 16px;
 }
 
-body section.content .services_wrap .service .packages_block .middle_package, body section.content.services_page .service .packages_block .middle_package {
+body section.content .services_wrap .service .packages_block .middle_package {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   background: #fff;
@@ -2501,70 +2503,68 @@ body section.content .services_wrap .service .packages_block .middle_package, bo
           box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
-body section.content .services_wrap .service .packages_block .middle_package .package_title, body section.content.services_page .service .packages_block .middle_package .package_title {
+body section.content .services_wrap .service .packages_block .middle_package .package_title {
   background: #191b20;
 }
 
-body section.content .services_wrap .service .packages_block .middle_package .package_price, body section.content.services_page .service .packages_block .middle_package .package_price {
+body section.content .services_wrap .service .packages_block .middle_package .package_price {
   background: #bf1111;
   color: #fff;
 }
 
 body section.content .services_wrap .service .packages_block .basic_package,
-body section.content .services_wrap .service .packages_block .full_package, body section.content.services_page .service .packages_block .basic_package,
-body section.content.services_page .service .packages_block .full_package {
+body section.content .services_wrap .service .packages_block .full_package {
   padding-bottom: 20px;
 }
 
 body section.content .services_wrap .service .packages_block .basic_package .package_price,
-body section.content .services_wrap .service .packages_block .full_package .package_price, body section.content.services_page .service .packages_block .basic_package .package_price,
-body section.content.services_page .service .packages_block .full_package .package_price {
+body section.content .services_wrap .service .packages_block .full_package .package_price {
   background: #f15f5f;
 }
 
-body section.content .services_wrap .service .packages_block .package_items, body section.content.services_page .service .packages_block .package_items {
+body section.content .services_wrap .service .packages_block .package_items {
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-top: 100px;
 }
 
-body section.content .services_wrap .service .packages_block .package_items .package_descritpion ul li, body section.content.services_page .service .packages_block .package_items .package_descritpion ul li {
+body section.content .services_wrap .service .packages_block .package_items .package_descritpion ul li {
   font-size: 15px;
   text-align: left;
 }
 
-body section.content .services_wrap .light_style .service, body section.content.services_page .light_style .service {
+body section.content .services_wrap .light_style .service {
   padding-top: 0px;
 }
 
-body section.content .services_wrap .light_style .service .tabs_block > ul li.active, body section.content .services_wrap .light_style .service .tabs_block > ul li.active:hover, body section.content.services_page .light_style .service .tabs_block > ul li.active, body section.content.services_page .light_style .service .tabs_block > ul li.active:hover {
+body section.content .services_wrap .light_style .service .tabs_block > ul li.active, body section.content .services_wrap .light_style .service .tabs_block > ul li.active:hover {
   background: #bf1111;
 }
 
-body section.content .services_wrap .light_style .service .tabs_block > ul li:hover, body section.content.services_page .light_style .service .tabs_block > ul li:hover {
+body section.content .services_wrap .light_style .service .tabs_block > ul li:hover {
   background: #eee;
 }
 
-body section.content .services_wrap .light_style .service .tabs_block .tabs li, body section.content.services_page .light_style .service .tabs_block .tabs li {
+body section.content .services_wrap .light_style .service .tabs_block .tabs li {
   color: #191b20;
 }
 
-body section.content .services_wrap .light_style .service .tabs_block .tabs li.active, body section.content.services_page .light_style .service .tabs_block .tabs li.active {
+body section.content .services_wrap .light_style .service .tabs_block .tabs li.active {
   color: #fff;
 }
 
-body section.content .services_wrap .light_style .service .tabs_block .box, body section.content.services_page .light_style .service .tabs_block .box {
+body section.content .services_wrap .light_style .service .tabs_block .box {
   background: #fff;
   color: #191b20;
   border: 1px solid #eee;
   border-radius: 0px;
 }
 
-body section.content .services_wrap .light_style .service .tabs_block .box .slide_text, body section.content.services_page .light_style .service .tabs_block .box .slide_text {
+body section.content .services_wrap .light_style .service .tabs_block .box .slide_text {
   color: #191b20;
 }
 
-body section.content .services_wrap .magic_sidebar, body section.content.services_page .magic_sidebar {
+body section.content .services_wrap .magic_sidebar {
   position: fixed;
   height: calc(100vh - 72px);
   right: 20px;
@@ -2574,7 +2574,7 @@ body section.content .services_wrap .magic_sidebar, body section.content.service
   z-index: 99;
 }
 
-body section.content .services_wrap .magic_sidebar .nav, body section.content.services_page .magic_sidebar .nav {
+body section.content .services_wrap .magic_sidebar .nav {
   padding: 0px;
   margin: 0;
   list-style-type: none;
@@ -2594,7 +2594,7 @@ body section.content .services_wrap .magic_sidebar .nav, body section.content.se
   height: 100%;
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item, body section.content.services_page .magic_sidebar .nav .sidebar_item {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item {
   padding: 0px;
   height: calc((100vh / 4) - 60px);
   position: relative;
@@ -2603,131 +2603,414 @@ body section.content .services_wrap .magic_sidebar .nav .sidebar_item, body sect
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item a, body section.content.services_page .magic_sidebar .nav .sidebar_item a {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item a {
   display: block;
   width: 50px;
   margin: 0 auto;
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item a .svg_img, body section.content.services_page .magic_sidebar .nav .sidebar_item a .svg_img {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item a .svg_img {
   -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item a .svg_img path.accent, body section.content.services_page .magic_sidebar .nav .sidebar_item a .svg_img path.accent {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item a .svg_img path.accent {
   fill: #444;
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item.active, body section.content.services_page .magic_sidebar .nav .sidebar_item.active {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item.active {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item.active .svg_img, body section.content.services_page .magic_sidebar .nav .sidebar_item.active .svg_img {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item.active .svg_img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-body section.content .services_wrap .magic_sidebar .nav .sidebar_item.active .svg_img path.accent, body section.content.services_page .magic_sidebar .nav .sidebar_item.active .svg_img path.accent {
+body section.content .services_wrap .magic_sidebar .nav .sidebar_item.active .svg_img path.accent {
   fill: #bf1111;
 }
 
-body section.content .services_wrap .services_wrap, body section.content.services_page .services_wrap {
-  position: relative;
-  overflow: hidden;
-  padding: 0px;
-  height: calc(100vh - 120px);
+body section.content.services_page {
+  max-width: 100%;
+  margin: 0px;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon, body section.content.services_page .services_wrap ul.akkordeon {
-  padding: 0;
-  margin: 0;
+body section.content.services_page .service {
+  padding-top: 0px;
+  /* базовый контейнер вкладок */
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item, body section.content.services_page .services_wrap ul.akkordeon li.page_item {
-  background: transparent;
-}
-
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div {
-  cursor: pointer;
-  padding: 10px 10px;
-  margin: 0;
-  color: #fff;
+body section.content.services_page .service .service_title {
   text-align: center;
+  font-size: 2.5em;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div.active .svg_img path.accent, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div.active .svg_img path.accent {
-  fill: #bf1111;
+body section.content.services_page .service .main_text {
+  max-width: 1200px;
+  margin: 1em auto;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div .service_icon, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div .service_icon {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  padding: 50px;
-  border-radius: 50%;
-  border: 2px solid #bf1111;
-  margin-bottom: 50px;
-  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+body section.content.services_page .service .service_description {
+  overflow: auto;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div .service_icon .svg_img, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div .service_icon .svg_img {
-  width: 100px;
-  height: 100px;
+body section.content.services_page .service .service_description .service_text p {
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div .service_icon .svg_img path.accent, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div .service_icon .svg_img path.accent {
-  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+body section.content.services_page .service .service_description .service_img img {
+  width: 100%;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div .title, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div .title {
-  font-size: 1.6em;
-  font-weight: 100;
+body section.content.services_page .service .tabs_block {
+  width: 100%;
+  margin-top: 40px;
+  /* панель навигации вкладок */
+  /* блоки вкладок с содержанием */
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > div .description, body section.content.services_page .services_wrap ul.akkordeon li.page_item > div .description {
-  line-height: 2em;
-  padding: 0 20%;
+body section.content.services_page .service .tabs_block:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > ul, body section.content.services_page .services_wrap ul.akkordeon li.page_item > ul {
-  display: none;
+body section.content.services_page .service .tabs_block > ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > ul li, body section.content.services_page .services_wrap ul.akkordeon li.page_item > ul li {
+body section.content.services_page .service .tabs_block > ul li {
+  display: block;
+}
+
+body section.content.services_page .service .tabs_block > ul li.active, body section.content.services_page .service .tabs_block > ul li.active:hover {
+  background: #bf1111;
+}
+
+body section.content.services_page .service .tabs_block > ul li:hover {
+  background: #2f333d;
+}
+
+body section.content.services_page .service .tabs_block .tabs {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  line-height: 1.6em;
-  font-size: 1.3em;
-  width: 130px;
-  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* список вкладок */
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > ul li a, body section.content.services_page .services_wrap ul.akkordeon li.page_item > ul li a {
+body section.content.services_page .service .tabs_block .tabs li {
+  text-align: center;
+  padding: 10px 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  cursor: pointer;
+  color: #fff;
+  border-bottom: 2px solid #bf1111;
+  line-height: 20px;
+  font-size: 1.2em;
+  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  /* активная вкладка */
+}
+
+body section.content.services_page .service .tabs_block .tabs li.active {
+  background: #bf1111;
+  color: #fff;
+  border-color: #bf1111;
+}
+
+body section.content.services_page .service .tabs_block .box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: none;
+  text-align: left;
+  background: #2f333d;
+  color: #fff;
+  border-radius: .2em;
+  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  /* активный блок при загрузке */
+}
+
+body section.content.services_page .service .tabs_block .box p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+body section.content.services_page .service .tabs_block .box .btn_wrap {
+  position: absolute;
+  bottom: 50px;
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.content.services_page .service .tabs_block .box .btn_wrap > * {
+  line-height: 20px;
+}
+
+body section.content.services_page .service .tabs_block .box .btn_wrap span {
+  font-size: 1.6em;
+  margin-right: 250px;
+  padding: 10px 20px;
+}
+
+body section.content.services_page .service .tabs_block .box .btn_wrap a {
+  padding: 10px 40px;
+  margin: 0 1em;
+  font-size: 1.2em;
+}
+
+body section.content.services_page .service .tabs_block .box .slide_text {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section.content.services_page .service .tabs_block .box .slide_text li, body section.content.services_page .service .tabs_block .box .slide_text p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+body section.content.services_page .service .tabs_block .box .slide_text img {
+  max-width: 30%;
+  align: left;
+}
+
+body section.content.services_page .service .tabs_block .box.visible, body section.content.services_page .service .tabs_block .box.open_tab {
+  display: block;
+}
+
+body section.content.services_page .service .packages_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  color: #191b20;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  clear: both;
+  padding-right: 20px;
+}
+
+body section.content.services_page .service .packages_block .package {
+  width: 25%;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+body section.content.services_page .service .packages_block .package .package_descritpion ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+body section.content.services_page .service .packages_block .package .package_descritpion ul li {
+  padding: 10px;
+  height: 37px;
+}
+
+body section.content.services_page .service .packages_block .package .package_descritpion ul li:nth-of-type(even) {
+  background: #eee;
+}
+
+body section.content.services_page .service .packages_block .package .package_descritpion ul li img {
+  width: 15px;
+}
+
+body section.content.services_page .service .packages_block .package_title,
+body section.content.services_page .service .packages_block .package_price {
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #22252b;
+}
+
+body section.content.services_page .service .packages_block .package_title {
+  font-size: 16px;
+}
+
+body section.content.services_page .service .packages_block .middle_package {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+body section.content.services_page .service .packages_block .middle_package .package_title {
+  background: #191b20;
+}
+
+body section.content.services_page .service .packages_block .middle_package .package_price {
+  background: #bf1111;
   color: #fff;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item > ul li:hover a, body section.content.services_page .services_wrap ul.akkordeon li.page_item > ul li:hover a {
-  color: #d61313;
+body section.content.services_page .service .packages_block .basic_package,
+body section.content.services_page .service .packages_block .full_package {
+  padding-bottom: 20px;
+}
+
+body section.content.services_page .service .packages_block .basic_package .package_price,
+body section.content.services_page .service .packages_block .full_package .package_price {
+  background: #f15f5f;
+}
+
+body section.content.services_page .service .packages_block .package_items {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 100px;
+}
+
+body section.content.services_page .service .packages_block .package_items .package_descritpion ul li {
+  font-size: 15px;
+  text-align: left;
+}
+
+body section.content.services_page .light_style .service {
+  padding-top: 0px;
+}
+
+body section.content.services_page .light_style .service .tabs_block > ul li.active, body section.content.services_page .light_style .service .tabs_block > ul li.active:hover {
+  background: #bf1111;
+}
+
+body section.content.services_page .light_style .service .tabs_block > ul li:hover {
+  background: #eee;
+}
+
+body section.content.services_page .light_style .service .tabs_block .tabs li {
+  color: #191b20;
+}
+
+body section.content.services_page .light_style .service .tabs_block .tabs li.active {
+  color: #fff;
+}
+
+body section.content.services_page .light_style .service .tabs_block .box {
+  background: #fff;
+  color: #191b20;
+  border: 1px solid #eee;
+  border-radius: 0px;
+}
+
+body section.content.services_page .light_style .service .tabs_block .box .slide_text {
+  color: #191b20;
+}
+
+body section.content.services_page .magic_sidebar {
+  position: fixed;
+  height: calc(100vh - 72px);
+  right: 20px;
+  top: 72px;
+  bottom: 0;
+  width: 100px;
+  z-index: 99;
+}
+
+body section.content.services_page .magic_sidebar .nav {
+  padding: 0px;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+body section.content.services_page .magic_sidebar .nav .sidebar_item {
+  padding: 0px;
+  height: calc((100vh / 4) - 60px);
+  position: relative;
+  top: 20px;
   -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item:hover .service_icon, body section.content.services_page .services_wrap ul.akkordeon li.page_item:hover .service_icon {
-  border-color: #fff;
-  background: #fff;
-  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+body section.content.services_page .magic_sidebar .nav .sidebar_item a {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
 }
 
-body section.content .services_wrap .services_wrap ul.akkordeon li.page_item:hover .svg_img path.accent, body section.content.services_page .services_wrap ul.akkordeon li.page_item:hover .svg_img path.accent {
+body section.content.services_page .magic_sidebar .nav .sidebar_item a .svg_img {
+  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body section.content.services_page .magic_sidebar .nav .sidebar_item a .svg_img path.accent {
+  fill: #444;
+}
+
+body section.content.services_page .magic_sidebar .nav .sidebar_item.active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body section.content.services_page .magic_sidebar .nav .sidebar_item.active .svg_img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body section.content.services_page .magic_sidebar .nav .sidebar_item.active .svg_img path.accent {
   fill: #bf1111;
 }
 
-body section.content .services_wrap .services_wrap .parallax, body section.content.services_page .services_wrap .parallax {
-  background: url(/compiled/img/bg5.jpg) 50% center no-repeat fixed;
-  background-size: 110% 110%;
+body section.content .projects_wrap .page_wrap .slide_text {
+  font-size: 1.2em;
 }
 
 body section.content.project_page .page_wrap .project_img,
@@ -2897,8 +3180,8 @@ body section.content.techs_page .page_wrap .flip-container:hover .flipper, body 
 }
 
 body section.content.techs_page .page_wrap .flipper {
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
@@ -3100,6 +3383,7 @@ body section.content.contacts_page .contact_us_wrap form .submit_btn {
 }
 
 body section.content.contacts_page .short_contacts_wrap {
+  text-align: center;
   position: relative;
 }
 
@@ -3115,6 +3399,10 @@ body section.content.contacts_page .short_contacts_wrap .icon .svg_img {
 
 body section.content.contacts_page .short_contacts_wrap .icon .svg_img * {
   fill: #fff;
+}
+
+body section.content.contacts_page .short_contacts_wrap .viber {
+  max-width: 100px;
 }
 
 body section.content.contacts_page .short_contacts_wrap p {
@@ -3154,7 +3442,10 @@ body section.content.contacts_page .contacts_wrap .page_wrap {
 }
 
 body section.content.contacts_page .contacts_wrap .page_wrap .grid_mod {
-  padding: 0;
+  border-color: #bf1111;
+  border-width: 3px 3px 3px 3px;
+  border-style: solid;
+  padding: 0px;
 }
 
 body section.content.contacts_page .contacts_wrap .page_wrap .grid_mod h2 {

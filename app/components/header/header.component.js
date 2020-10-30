@@ -12,34 +12,18 @@ var core_1 = require("@angular/core");
 var HeaderComponent = (function () {
     function HeaderComponent() {
         this.mainMenu = [
-            //{
-            //	title: 'Портфолио',
-            //	link: '/portfolio'
-            //},
-            {
-                title: 'Маркетинг',
-                link: '/'
-            },
-            {
-                title: 'IT сервис',
-                link: '/4'
-            },
             // {
-            // 	title: 'Услуги',
-            // 	link: '/services'
+            // 	title: 'Маркетинг',
+            // 	link: '/'
             // },
             // {
-            // 	title: 'Технологии',
-            // 	link: '/techs'
+            // 	title: 'IT сервис',
+            // 	link: '/'
             // },
-            {
-                title: 'Написати в Viber',
-                link: '{{app?.}}viber://chat?number=+380958279022'
-            },
             {
                 title: 'Контакты',
                 link: '/contacts'
-            }
+            },
         ];
     }
     return HeaderComponent;

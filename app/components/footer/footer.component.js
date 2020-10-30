@@ -12,18 +12,26 @@ var core_1 = require("@angular/core");
 var FooterComponent = (function () {
     function FooterComponent() {
         this.footerLinks = [
-            //{
-            //	title: 'Портфолио',
-            //	link: '/portfolio'
-            //},
+            {
+                title: 'Главная',
+                link: ''
+            },
+            {
+                title: 'Маркетинг',
+                link: '/5'
+            },
+            {
+                title: 'IT сервис',
+                link: '/4'
+            },
             // {
             // 	title: 'Услуги',
             // 	link: '/services'
             // },
-            // {
-            // 	title: 'Технологии',
-            // 	link: '/techs'
-            // },
+            {
+                title: 'Технологии',
+                link: '/techs'
+            },
             {
                 title: 'Контакты',
                 link: '/contacts'

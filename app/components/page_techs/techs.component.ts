@@ -9,11 +9,9 @@ import { JQ } from '@jquery';
 })
 
 export class TechsComponent implements OnInit {
-	constructor(
-		private $: JQ
-	){
-	}
+	constructor(private $: JQ){}
 	ngOnInit(): any{
-		this.$.scrollTop();
+		// this.$.scrollTop();
+		window.scrollTo(0, 0);
 	}
 }

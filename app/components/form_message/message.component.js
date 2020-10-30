@@ -9,25 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var _jquery_1 = require("@jquery");
-var TechsComponent = (function () {
-    function TechsComponent($) {
-        this.$ = $;
+var SubscribeFormComponent = (function () {
+    function SubscribeFormComponent() {
     }
-    TechsComponent.prototype.ngOnInit = function () {
-        // this.$.scrollTop();
-        window.scrollTo(0, 0);
+    SubscribeFormComponent.prototype.addSubscription = function (email) {
+        console.log("\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u043D\u0430 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0430 \u0434\u043B\u044F " + email);
     };
-    return TechsComponent;
+    return SubscribeFormComponent;
 }());
-TechsComponent = __decorate([
+SubscribeFormComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'my-techs',
-        templateUrl: './techs.component.html',
+        selector: 'form_subscribe',
+        templateUrl: './subscribe.component.html'
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
-], TechsComponent);
-exports.TechsComponent = TechsComponent;
-var _a;
-//# sourceMappingURL=techs.component.js.map
+    __metadata("design:paramtypes", [])
+], SubscribeFormComponent);
+exports.SubscribeFormComponent = SubscribeFormComponent;
+//# sourceMappingURL=subscribe.component.js.map
