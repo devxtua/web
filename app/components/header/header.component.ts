@@ -13,10 +13,10 @@ export class HeaderComponent {
 			// 	title: 'Маркетинг',
 			// 	link: '/'
 			// },
-			// {
-			// 	title: 'IT сервис',
-			// 	link: '/'
-			// },
+			{
+				title: 'Услуги',
+				link: '/'
+			},
 			{
 				title: 'Контакты',
 				link: '/contacts'

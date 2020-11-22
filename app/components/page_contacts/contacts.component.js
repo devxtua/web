@@ -9,10 +9,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+var platform_browser_1 = require("@angular/platform-browser");
 var _jquery_1 = require("@jquery");
 var ContactsComponent = (function () {
-    function ContactsComponent($) {
+    function ContactsComponent(title, $) {
         this.$ = $;
+        title.setTitle('Контакты TakiDa.club');
     }
     ContactsComponent.prototype.ngAfterViewInit = function () {
         this.$.inlineSvg();
@@ -29,7 +31,7 @@ ContactsComponent = __decorate([
         selector: 'my-contacts',
         templateUrl: './contacts.component.html'
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
+    __metadata("design:paramtypes", [platform_browser_1.Title, typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
 ], ContactsComponent);
 exports.ContactsComponent = ContactsComponent;
 var _a;

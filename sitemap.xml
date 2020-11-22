@@ -6,7 +6,99 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://takida.club</loc>
-  <lastmod>2020-10-21T06:09:43+00:00</lastmod>
+  <loc>https://takida.club/</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://takida.club/techs</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/contacts</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/business_promotion</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/profitability</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/accounting_systems</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/crm_systems</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/ip_telephony</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/chat_bots</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/site_improvements</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/1c</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/simple_software</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/database</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/installation</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/customization</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://takida.club/update</loc>
+  <lastmod>2020-11-20T00:40:43+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 </urlset>

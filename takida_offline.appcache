@@ -1,0 +1,22 @@
+CACHE MANIFEST
+# version 1.00.082
+
+# Explicitly cached entries
+
+takida_offline.js
+takida_offline.html
+/compiled/fonts/Roboto-Regular.ttf
+/compiled/img/offline_bg.png
+/compiled/img/icons/wk_email.svg
+/compiled/img/icons/wk_location.svg
+/compiled/img/icons/wk_phone.svg
+/compiled/img/logo-2.1.svg
+/compiled/js/jquery-3.1.0.min.js
+
+
+NETWORK:
+*
+
+
+FALLBACK:
+takida_online.js takida_offline.js

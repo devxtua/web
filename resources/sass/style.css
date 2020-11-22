@@ -1229,6 +1229,65 @@ textarea {
   color: #191b20;
 }
 
+.light_style .tabel {
+  display: table;
+  border-collapse: collapse;
+  margin: auto;
+  border: 1px solid #eee;
+  width: 99%;
+}
+
+.light_style .tabel .cell {
+  display: table-cell;
+  padding: 10px;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.light_style .tabel .thead {
+  display: table-header-group;
+  background-color: #8b8b8b63;
+}
+
+.light_style .tabel .thead .trow {
+  display: table-row;
+  border: 1px solid #eee;
+}
+
+.light_style .tabel .thead .trow .price {
+  text-align: center;
+}
+
+.light_style .tabel .tbody {
+  display: table-row-group;
+}
+
+.light_style .tabel .tbody .trow {
+  display: table-row;
+  border: 1px solid #eee;
+}
+
+.light_style .tabel .tbody .trow .price {
+  text-align: center;
+}
+
+.light_style .tabel .tbody .trow:hover {
+  background-color: #8b8b8b14;
+}
+
+.light_style .tabel:hover {
+  -webkit-box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.light_style .bunner_btn {
+  width: 200px;
+  margin: 50px auto;
+  border: 1px solid #fff;
+  display: block;
+}
+
 .accent_style {
   background-color: #bf1111;
   color: #fff;
@@ -1470,7 +1529,6 @@ body header .sandwich.animate .piece.bottom {
 }
 
 body header nav {
-  display: inline-block;
   float: right;
   padding: 30px;
   -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1835,8 +1893,10 @@ body section.content.home_page .services_wrap:before, body section.content.home_
   transform: skewX(-45deg);
   -ms-transform: skewX(-45deg);
   -webkit-transform: skewX(-45deg);
-  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+  -webkit-transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body section.content.home_page .services_wrap:before {
@@ -2232,14 +2292,7 @@ body section.content.portfolio_page .items_wrap .page_item:hover .text_block {
   visibility: visible;
 }
 
-body section.content.portfolio_page .items_wrap .page_item:hover img {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-
 body section.content.portfolio_page .portfolio_page_descr {
-  margin: 50px auto;
   font-size: 1.2em;
   line-height: 1.4em;
   text-align: center;
@@ -2435,7 +2488,7 @@ body section.content .services_wrap .service .tabs_block .box .slide_text li, bo
 
 body section.content .services_wrap .service .tabs_block .box .slide_text img {
   max-width: 30%;
-  align: left;
+  box-align: left;
 }
 
 body section.content .services_wrap .service .tabs_block .box.visible, body section.content .services_wrap .service .tabs_block .box.open_tab {
@@ -2812,7 +2865,7 @@ body section.content.services_page .service .tabs_block .box .slide_text li, bod
 
 body section.content.services_page .service .tabs_block .box .slide_text img {
   max-width: 30%;
-  align: left;
+  box-align: left;
 }
 
 body section.content.services_page .service .tabs_block .box.visible, body section.content.services_page .service .tabs_block .box.open_tab {
@@ -3009,6 +3062,347 @@ body section.content.services_page .magic_sidebar .nav .sidebar_item.active .svg
   fill: #bf1111;
 }
 
+body section.content.business_page {
+  max-width: 100%;
+  margin: 0px;
+}
+
+body section.content.business_page .page_wrap {
+  padding-top: 0px;
+}
+
+body section.content.business_page .page_wrap .service_title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+body section.content.business_page .page_wrap .main_text {
+  max-width: 1200px;
+  margin: 1em auto;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+body section.content.business_page .page_wrap .service_description {
+  overflow: auto;
+}
+
+body section.content.business_page .page_wrap .service_description .service_text p {
+  text-align: justify;
+  margin-left: 5%;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+body section.content.business_page .page_wrap .service_description .service_img {
+  text-align: center;
+}
+
+body section.content.business_page .page_wrap .service_description .service_img img {
+  width: 70%;
+}
+
+body section.content.business_page .page_wrap .packages_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  color: #191b20;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  clear: both;
+  padding-right: 20px;
+}
+
+body section.content.business_page .page_wrap .packages_block .package {
+  width: 25%;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+body section.content.business_page .page_wrap .packages_block .package .package_descritpion ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+body section.content.business_page .page_wrap .packages_block .package .package_descritpion ul li {
+  padding: 10px;
+  height: 37px;
+}
+
+body section.content.business_page .page_wrap .packages_block .package .package_descritpion ul li:nth-of-type(even) {
+  background: #eee;
+}
+
+body section.content.business_page .page_wrap .packages_block .package .package_descritpion ul li img {
+  width: 15px;
+}
+
+body section.content.business_page .page_wrap .packages_block .package_title,
+body section.content.business_page .page_wrap .packages_block .package_price {
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #22252b;
+}
+
+body section.content.business_page .page_wrap .packages_block .package_title {
+  font-size: 16px;
+}
+
+body section.content.business_page .page_wrap .packages_block .middle_package {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+body section.content.business_page .page_wrap .packages_block .middle_package .package_title {
+  background: #191b20;
+}
+
+body section.content.business_page .page_wrap .packages_block .middle_package .package_price {
+  background: #bf1111;
+  color: #fff;
+}
+
+body section.content.business_page .page_wrap .packages_block .basic_package,
+body section.content.business_page .page_wrap .packages_block .full_package {
+  padding-bottom: 20px;
+}
+
+body section.content.business_page .page_wrap .packages_block .basic_package .package_price,
+body section.content.business_page .page_wrap .packages_block .full_package .package_price {
+  background: #f15f5f;
+}
+
+body section.content.business_page .page_wrap .packages_block .package_items {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 100px;
+}
+
+body section.content.business_page .page_wrap .packages_block .package_items .package_descritpion ul li {
+  font-size: 15px;
+  text-align: left;
+}
+
+body section.content.business_page .page_wrap .tech {
+  margin-bottom: 20px;
+}
+
+body section.content.business_page .page_wrap .tech .tech_image {
+  float: none;
+  width: 100%;
+  padding: 0px;
+  border: 1px solid #eee;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  position: static;
+  text-align: center;
+}
+
+body section.content.business_page .page_wrap .tech .tech_image .svg_img {
+  width: 50%;
+}
+
+body section.content.page {
+  max-width: 100%;
+  margin: 5px;
+}
+
+body section.content.page .page_wrap {
+  padding-top: 0px;
+}
+
+body section.content.page .page_wrap .service_title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+body section.content.page .page_wrap .main_text {
+  margin: 1em auto;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+body section.content.page .page_wrap .service_description {
+  overflow: auto;
+}
+
+body section.content.page .page_wrap .service_description .service_text p {
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+body section.content.page .page_wrap .service_description .service_img img {
+  width: 100%;
+}
+
+body section.content.page .page_wrap .packages_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  color: #191b20;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  clear: both;
+  padding-right: 20px;
+}
+
+body section.content.page .page_wrap .packages_block .package {
+  width: 25%;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+body section.content.page .page_wrap .packages_block .package .package_descritpion ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+body section.content.page .page_wrap .packages_block .package .package_descritpion ul li {
+  padding: 10px;
+  height: 37px;
+}
+
+body section.content.page .page_wrap .packages_block .package .package_descritpion ul li:nth-of-type(even) {
+  background: #eee;
+}
+
+body section.content.page .page_wrap .packages_block .package .package_descritpion ul li img {
+  width: 15px;
+}
+
+body section.content.page .page_wrap .packages_block .package_title,
+body section.content.page .page_wrap .packages_block .package_price {
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #22252b;
+}
+
+body section.content.page .page_wrap .packages_block .package_title {
+  font-size: 16px;
+}
+
+body section.content.page .page_wrap .packages_block .middle_package {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+body section.content.page .page_wrap .packages_block .middle_package .package_title {
+  background: #191b20;
+}
+
+body section.content.page .page_wrap .packages_block .middle_package .package_price {
+  background: #bf1111;
+  color: #fff;
+}
+
+body section.content.page .page_wrap .packages_block .basic_package,
+body section.content.page .page_wrap .packages_block .full_package {
+  padding-bottom: 20px;
+}
+
+body section.content.page .page_wrap .packages_block .basic_package .package_price,
+body section.content.page .page_wrap .packages_block .full_package .package_price {
+  background: #f15f5f;
+}
+
+body section.content.page .page_wrap .packages_block .package_items {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 100px;
+}
+
+body section.content.page .page_wrap .packages_block .package_items .package_descritpion ul li {
+  font-size: 15px;
+  text-align: left;
+}
+
+body section.content.page .page_wrap .service_img {
+  text-align: center;
+}
+
+body section.content.page .page_wrap .service_img img {
+  max-width: 20%;
+}
+
+body section.content.page .page_wrap .tech {
+  margin-bottom: 20px;
+}
+
+body section.content.page .page_wrap .tech .tech_image {
+  float: none;
+  width: 100%;
+  padding: 0px;
+  border: 1px solid #eee;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  position: static;
+  text-align: center;
+}
+
+body section.content.page .page_wrap .tech .tech_image .svg_img {
+  width: 50%;
+}
+
+body section.content.page a {
+  color: #fff;
+}
+
+body section.content.page_404 {
+  max-width: 100%;
+  margin: 5px;
+}
+
+body section.content.page_404 .page_wrap {
+  padding-top: 0px;
+}
+
+body section.content.page_404 .page_wrap .main_text {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+body section.content.page_404 .page_wrap .main_text .btn {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #fff;
+  display: block;
+}
+
+body section.content.page_404 .page_wrap .service_img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 50%;
+  background-color: red;
+  opacity: 0.5;
+}
+
 body section.content .projects_wrap .page_wrap .slide_text {
   font-size: 1.2em;
 }
@@ -3156,6 +3550,7 @@ body section.content.techs_page .page_wrap .tech .tech_image {
   position: static;
 }
 
+body section.content.techs_page .page_wrap .tech .html_logo,
 body section.content.techs_page .page_wrap .tech .tech_title {
   margin: 0px 0px 5px 0px;
   text-align: center;
@@ -3526,7 +3921,6 @@ body footer .copyright img {
 body footer .copyright .logo {
   height: 80px;
   display: inline-block;
-  float: left;
 }
 
 body footer .copyright .logo #lion {

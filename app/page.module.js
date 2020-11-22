@@ -27,12 +27,26 @@ var banner_component_1 = require("./components/owl_banner/banner.component");
 var owl_techs_component_1 = require("./components/owl_techs/owl_techs.component");
 var map_component_1 = require("./components/map/map.component");
 var subscribe_component_1 = require("./components/form_subscribe/subscribe.component");
-var xt_component_1 = require("./components/projects/xt/xt.component");
-var litelife_component_1 = require("./components/projects/litelife/litelife.component");
-var pizzeria_da_persio_component_1 = require("./components/projects/pizzeria_da_persio/pizzeria_da_persio.component");
-var bino_component_1 = require("./components/projects/bino/bino.component");
-var barbator_component_1 = require("./components/projects/barbator/barbator.component");
+// import { XtComponent } from './components/projects/xt/xt.component';
+// import { LitelifeComponent } from './components/projects/litelife/litelife.component';
+// import { PizzeriaComponent } from './components/projects/pizzeria_da_persio/pizzeria_da_persio.component';
+// import { BinoComponent } from './components/projects/bino/bino.component';
+// import { BarbatorComponent } from './components/projects/barbator/barbator.component';
 var redirect_component_1 = require("./components/page_redirect/redirect.component");
+var business_component_1 = require("./components/page_business/business.component");
+var profitability_component_1 = require("./components/page_profitability/profitability.component");
+var accounting_systems_component_1 = require("./components/page_accounting_systems/accounting_systems.component");
+var installation_component_1 = require("./components/page_installation/installation.component");
+var customization_component_1 = require("./components/page_customization/customization.component");
+var update_component_1 = require("./components/page_update/update.component");
+var site_improvements_component_1 = require("./components/page_site_improvements/site_improvements.component");
+var crm_systems_component_1 = require("./components/page_crm_systems/crm_systems.component");
+var simple_software_component_1 = require("./components/page_simple_software/simple_software.component");
+var _1c_component_1 = require("./components/page_1c/1c.component");
+var database_component_1 = require("./components/page_database/database.component");
+var ip_telephony_component_1 = require("./components/page_ip_telephony/ip_telephony.component");
+var chat_bots_component_1 = require("./components/page_chat_bots/chat_bots.component");
+var page404_component_1 = require("./components/page_404/page404.component");
 core_2.enableProdMode();
 var PageModule = (function () {
     function PageModule() {
@@ -61,12 +75,26 @@ PageModule = __decorate([
             owl_techs_component_1.OwlTechsComponent,
             map_component_1.MapComponent,
             subscribe_component_1.SubscribeFormComponent,
-            xt_component_1.XtComponent,
-            litelife_component_1.LitelifeComponent,
-            pizzeria_da_persio_component_1.PizzeriaComponent,
-            barbator_component_1.BarbatorComponent,
-            bino_component_1.BinoComponent,
-            redirect_component_1.RedirectComponent
+            // XtComponent,
+            // LitelifeComponent,
+            // PizzeriaComponent,
+            // BarbatorComponent,
+            // BinoComponent,
+            redirect_component_1.RedirectComponent,
+            business_component_1.BusinessComponent,
+            profitability_component_1.ProfitabilityComponent,
+            accounting_systems_component_1.AccountingSystemsComponent,
+            installation_component_1.InstallationComponent,
+            customization_component_1.СustomizationComponent,
+            update_component_1.UpdateComponent,
+            site_improvements_component_1.SiteImprovementsComponent,
+            crm_systems_component_1.CRMsystemsComponent,
+            simple_software_component_1.SimpleSoftwareComponent,
+            _1c_component_1.C1CComponent,
+            database_component_1.DatabaseComponent,
+            ip_telephony_component_1.IP_telephonyComponent,
+            chat_bots_component_1.Chat_botsComponent,
+            page404_component_1.NotFoundComponent
         ],
         bootstrap: [
             page_component_1.PageComponent

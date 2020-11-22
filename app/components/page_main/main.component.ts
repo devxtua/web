@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { JQ } from '@jquery';
 declare var jQuery: any;
 
@@ -9,23 +10,24 @@ declare var jQuery: any;
 })
 
 export class MainComponent implements AfterViewInit {
-	constructor(
-		private $: JQ
+	constructor(title: Title,	private $: JQ
 	){
+		title.setTitle('Услуги маркетолога, IT-сервис в Харькове Одессе');		
 	}
 	ngAfterViewInit(): any{
+		this.$.isHomePage();
 		this.$.inlineSvg();
-		this.$.animated_scroll();
+		this.$.animated_scroll();		
 		jQuery('.parallax-mirror').remove();
 		setTimeout(function(){
 			this.$('.services_wrap').parallax({
-				imageSrc: '/compiled/img/bg5.jpg',
+				imageSrc: '/compiled/img/bg4.jpg',
 				overScrollFix: true,
 				androidFix: false,
 				iosFix: false,
 			});
 			this.$('.about_studio_wrap').parallax({
-				imageSrc: '/compiled/img/bg4.jpg',
+				imageSrc: '/compiled/img/bg5.jpg',
 				overScrollFix: true,
 				androidFix: false,
 				iosFix: false,
@@ -38,4 +40,5 @@ export class MainComponent implements AfterViewInit {
 	ngOnDestroy(){
 		jQuery('.parallax-mirror').remove();
 	}
+
 }

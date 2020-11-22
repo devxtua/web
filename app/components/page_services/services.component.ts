@@ -33,6 +33,7 @@ export class ServicesComponent implements OnInit{
 		      }
 		    });
 		  }
+
 		  // this.activate = function(obj){
 		  //   this.deactivate();
 		  //   $(obj).closest('li').addClass('active');
@@ -50,5 +51,9 @@ export class ServicesComponent implements OnInit{
 	}
 	ngOnDestroy() {
   	  $(window).unbind();
-  	}
+	  }
+	ngAfterViewInit(): any {
+		this.$.inlineSvg();
+		this.$.isHomePage();
+	}
 }

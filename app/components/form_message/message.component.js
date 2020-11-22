@@ -9,21 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var SubscribeFormComponent = (function () {
-    function SubscribeFormComponent() {
+var MessageFormComponent = (function () {
+    function MessageFormComponent() {
     }
-    SubscribeFormComponent.prototype.addSubscription = function (email) {
-        console.log("\u0410\u043A\u0442\u0438\u0432\u0438\u0440\u043E\u0432\u0430\u043D\u0430 \u043F\u043E\u0434\u043F\u0438\u0441\u043A\u0430 \u0434\u043B\u044F " + email);
+    MessageFormComponent.prototype.submit = function (form) {
+        console.log(form);
     };
-    return SubscribeFormComponent;
+    return MessageFormComponent;
 }());
-SubscribeFormComponent = __decorate([
+MessageFormComponent = __decorate([
     core_1.Component({
-        moduleId: module.id,
-        selector: 'form_subscribe',
-        templateUrl: './subscribe.component.html'
+        // moduleId: module.id,
+        selector: 'my-form_message',
+        templateUrl: './message.component.html'
     }),
     __metadata("design:paramtypes", [])
-], SubscribeFormComponent);
-exports.SubscribeFormComponent = SubscribeFormComponent;
-//# sourceMappingURL=subscribe.component.js.map
+], MessageFormComponent);
+exports.MessageFormComponent = MessageFormComponent;
+//# sourceMappingURL=message.component.js.map

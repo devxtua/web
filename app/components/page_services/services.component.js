@@ -52,6 +52,10 @@ var ServicesComponent = (function () {
     ServicesComponent.prototype.ngOnDestroy = function () {
         $(window).unbind();
     };
+    ServicesComponent.prototype.ngAfterViewInit = function () {
+        this.$.inlineSvg();
+        this.$.isHomePage();
+    };
     return ServicesComponent;
 }());
 ServicesComponent = __decorate([

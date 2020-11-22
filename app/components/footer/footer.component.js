@@ -16,14 +16,14 @@ var FooterComponent = (function () {
                 title: 'Главная',
                 link: ''
             },
-            {
-                title: 'Маркетинг',
-                link: '/5'
-            },
-            {
-                title: 'IT сервис',
-                link: '/4'
-            },
+            // {
+            // 	title: 'Маркетинг',
+            // 	link: '/5'
+            // },
+            // {
+            // 	title: 'IT сервис',
+            // 	link: '/4'
+            // },
             // {
             // 	title: 'Услуги',
             // 	link: '/services'

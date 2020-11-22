@@ -9,24 +9,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+var platform_browser_1 = require("@angular/platform-browser");
 var _jquery_1 = require("@jquery");
 var MainComponent = (function () {
-    function MainComponent($) {
+    function MainComponent(title, $) {
         this.$ = $;
+        title.setTitle('Услуги маркетолога, IT-сервис в Харькове Одессе');
     }
     MainComponent.prototype.ngAfterViewInit = function () {
+        this.$.isHomePage();
         this.$.inlineSvg();
         this.$.animated_scroll();
         jQuery('.parallax-mirror').remove();
         setTimeout(function () {
             this.$('.services_wrap').parallax({
-                imageSrc: '/compiled/img/bg5.jpg',
+                imageSrc: '/compiled/img/bg4.jpg',
                 overScrollFix: true,
                 androidFix: false,
                 iosFix: false,
             });
             this.$('.about_studio_wrap').parallax({
-                imageSrc: '/compiled/img/bg4.jpg',
+                imageSrc: '/compiled/img/bg5.jpg',
                 overScrollFix: true,
                 androidFix: false,
                 iosFix: false,
@@ -47,7 +50,7 @@ MainComponent = __decorate([
         selector: 'my-main',
         templateUrl: './main.component.html'
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
+    __metadata("design:paramtypes", [platform_browser_1.Title, typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
 ], MainComponent);
 exports.MainComponent = MainComponent;
 var _a;
