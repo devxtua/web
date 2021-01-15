@@ -24,9 +24,11 @@ var contacts_component_1 = require("./components/page_contacts/contacts.componen
 var services_component_1 = require("./components/page_services/services.component");
 var website_component_1 = require("./components/page_website/website.component");
 var banner_component_1 = require("./components/owl_banner/banner.component");
+var owl_reviews_component_1 = require("./components/owl_reviews/owl_reviews.component");
 var owl_techs_component_1 = require("./components/owl_techs/owl_techs.component");
 var map_component_1 = require("./components/map/map.component");
 var subscribe_component_1 = require("./components/form_subscribe/subscribe.component");
+// import { SimpleFormComp} from './components/form_reviews/reviews.component';
 // import { XtComponent } from './components/projects/xt/xt.component';
 // import { LitelifeComponent } from './components/projects/litelife/litelife.component';
 // import { PizzeriaComponent } from './components/projects/pizzeria_da_persio/pizzeria_da_persio.component';
@@ -72,9 +74,11 @@ PageModule = __decorate([
             techs_component_1.TechsComponent,
             about_component_1.AboutComponent,
             contacts_component_1.ContactsComponent,
+            owl_reviews_component_1.OwlReviewsComponent,
             owl_techs_component_1.OwlTechsComponent,
             map_component_1.MapComponent,
             subscribe_component_1.SubscribeFormComponent,
+            // SimpleFormComp
             // XtComponent,
             // LitelifeComponent,
             // PizzeriaComponent,

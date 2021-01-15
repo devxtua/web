@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /examples*
+Sitemap: https://takida.club/sitemap.xml

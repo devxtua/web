@@ -12,7 +12,7 @@ declare var jQuery: any;
 
 export class ContactsComponent implements OnInit{
 	constructor(title: Title, private $: JQ){
-		title.setTitle('Контакты TakiDa.club');
+		// title.setTitle('Контакты TakiDa.club');
 	}
 	ngAfterViewInit(): any{
 		this.$.inlineSvg();

@@ -3234,6 +3234,10 @@ body section.content.page .page_wrap .main_text {
   line-height: 1.4em;
 }
 
+body section.content.page .page_wrap .main_text a:hover {
+  color: red;
+}
+
 body section.content.page .page_wrap .service_description {
   overflow: auto;
 }

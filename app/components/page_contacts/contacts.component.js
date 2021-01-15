@@ -14,7 +14,7 @@ var _jquery_1 = require("@jquery");
 var ContactsComponent = (function () {
     function ContactsComponent(title, $) {
         this.$ = $;
-        title.setTitle('Контакты TakiDa.club');
+        // title.setTitle('Контакты TakiDa.club');
     }
     ContactsComponent.prototype.ngAfterViewInit = function () {
         this.$.inlineSvg();

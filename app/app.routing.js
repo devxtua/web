@@ -1,10 +1,17 @@
 "use strict";
 var router_1 = require("@angular/router");
 var main_component_1 = require("./components/page_main/main.component");
+// import { PortfolioComponent }  from './components/page_portfolio/portfolio.component';
 var services_component_1 = require("./components/page_services/services.component");
 var website_component_1 = require("./components/page_website/website.component");
 var techs_component_1 = require("./components/page_techs/techs.component");
+// import { AboutComponent } from './components/page_about/about.component';
 var contacts_component_1 = require("./components/page_contacts/contacts.component");
+// import { XtComponent } from './components/projects/xt/xt.component';
+// import { LitelifeComponent } from './components/projects/litelife/litelife.component';
+// import { PizzeriaComponent } from './components/projects/pizzeria_da_persio/pizzeria_da_persio.component';
+// import { BinoComponent } from './components/projects/bino/bino.component';
+// import { BarbatorComponent } from './components/projects/barbator/barbator.component';
 var redirect_component_1 = require("./components/page_redirect/redirect.component");
 var business_component_1 = require("./components/page_business/business.component");
 var profitability_component_1 = require("./components/page_profitability/profitability.component");

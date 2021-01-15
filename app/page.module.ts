@@ -16,9 +16,12 @@ import { ContactsComponent } from './components/page_contacts/contacts.component
 import { ServicesComponent } from './components/page_services/services.component';
 import { WebsiteComponent } from './components/page_website/website.component';
 import { BannerComponent } from './components/owl_banner/banner.component';
+import { OwlReviewsComponent } from './components/owl_reviews/owl_reviews.component';
 import { OwlTechsComponent } from './components/owl_techs/owl_techs.component';
 import { MapComponent } from './components/map/map.component';
 import { SubscribeFormComponent } from './components/form_subscribe/subscribe.component';
+// import { SimpleFormComp} from './components/form_reviews/reviews.component';
+
 // import { XtComponent } from './components/projects/xt/xt.component';
 // import { LitelifeComponent } from './components/projects/litelife/litelife.component';
 // import { PizzeriaComponent } from './components/projects/pizzeria_da_persio/pizzeria_da_persio.component';
@@ -62,9 +65,11 @@ enableProdMode();
 		TechsComponent,
 		AboutComponent,
 		ContactsComponent,
+		OwlReviewsComponent,
 		OwlTechsComponent,
 		MapComponent,
 		SubscribeFormComponent,
+		// SimpleFormComp
 		// XtComponent,
 		// LitelifeComponent,
 		// PizzeriaComponent,
