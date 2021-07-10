@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainComponent }  from './components/page_main/main.component';
 // import { PortfolioComponent }  from './components/page_portfolio/portfolio.component';
 import { ServicesComponent }  from './components/page_services/services.component';
-import { WebsiteComponent }  from './components/page_website/website.component';
+
 import { TechsComponent } from './components/page_techs/techs.component';
 // import { AboutComponent } from './components/page_about/about.component';
 import { ContactsComponent } from './components/page_contacts/contacts.component';
@@ -15,6 +15,12 @@ import { ContactsComponent } from './components/page_contacts/contacts.component
 // import { BarbatorComponent } from './components/projects/barbator/barbator.component';
 import { RedirectComponent } from './components/page_redirect/redirect.component';
 import { BusinessComponent } from './components/page_business/business.component';
+import { ProductComponent } from './components/page_product/product.component';
+import { WebsiteComponent }  from './components/page_website/website.component';
+import { Website_cardComponent } from './components/page_website_card/website_card.component';
+import { Website_catalogComponent } from './components/page_website_catalog/website_catalog.component';
+import { Website_storeComponent } from './components/page_website_store/website_store.component';
+
 import { ProfitabilityComponent } from './components/page_profitability/profitability.component';
 import { AccountingSystemsComponent } from './components/page_accounting_systems/accounting_systems.component';
 import { InstallationComponent } from './components/page_installation/installation.component';
@@ -34,7 +40,7 @@ const appRoutes: Routes = [
   {path: '', component: MainComponent},
   // {path: 'portfolio', component: PortfolioComponent},
   {path: 'services', component: ServicesComponent},
-  {path: 'website', component: WebsiteComponent},
+  
   {path: 'techs', component: TechsComponent},
   // {path: 'about', component: AboutComponent},
   {path: 'contacts', component: ContactsComponent},
@@ -44,7 +50,14 @@ const appRoutes: Routes = [
   // {path: 'portfolio/barbator', component: BarbatorComponent},
   // {path: 'portfolio/bino', component: BinoComponent},
   { path: 'redirect', component: RedirectComponent },
-  { path: 'business_promotion', component: BusinessComponent },
+
+  { path: 'business', component: BusinessComponent },
+  { path: 'product', component: ProductComponent },
+  { path: 'website', component: WebsiteComponent },
+  { path: 'website_card', component: Website_cardComponent },
+  { path: 'website_catalog', component: Website_catalogComponent },
+  { path: 'website_store', component: Website_storeComponent },
+
   { path: 'profitability', component: ProfitabilityComponent },
   { path: 'accounting_systems', component: AccountingSystemsComponent },
   { path: 'installation', component: InstallationComponent },

@@ -22,7 +22,7 @@ var techs_component_1 = require("./components/page_techs/techs.component");
 var about_component_1 = require("./components/page_about/about.component");
 var contacts_component_1 = require("./components/page_contacts/contacts.component");
 var services_component_1 = require("./components/page_services/services.component");
-var website_component_1 = require("./components/page_website/website.component");
+var redirect_component_1 = require("./components/page_redirect/redirect.component");
 var banner_component_1 = require("./components/owl_banner/banner.component");
 var owl_reviews_component_1 = require("./components/owl_reviews/owl_reviews.component");
 var owl_techs_component_1 = require("./components/owl_techs/owl_techs.component");
@@ -34,8 +34,12 @@ var subscribe_component_1 = require("./components/form_subscribe/subscribe.compo
 // import { PizzeriaComponent } from './components/projects/pizzeria_da_persio/pizzeria_da_persio.component';
 // import { BinoComponent } from './components/projects/bino/bino.component';
 // import { BarbatorComponent } from './components/projects/barbator/barbator.component';
-var redirect_component_1 = require("./components/page_redirect/redirect.component");
 var business_component_1 = require("./components/page_business/business.component");
+var website_component_1 = require("./components/page_website/website.component");
+var product_component_1 = require("./components/page_product/product.component");
+var website_card_component_1 = require("./components/page_website_card/website_card.component");
+var website_catalog_component_1 = require("./components/page_website_catalog/website_catalog.component");
+var website_store_component_1 = require("./components/page_website_store/website_store.component");
 var profitability_component_1 = require("./components/page_profitability/profitability.component");
 var accounting_systems_component_1 = require("./components/page_accounting_systems/accounting_systems.component");
 var installation_component_1 = require("./components/page_installation/installation.component");
@@ -70,6 +74,9 @@ PageModule = __decorate([
             portfolio_component_1.PortfolioComponent,
             services_component_1.ServicesComponent,
             website_component_1.WebsiteComponent,
+            website_card_component_1.Website_cardComponent,
+            website_catalog_component_1.Website_catalogComponent,
+            website_store_component_1.Website_storeComponent,
             banner_component_1.BannerComponent,
             techs_component_1.TechsComponent,
             about_component_1.AboutComponent,
@@ -98,6 +105,7 @@ PageModule = __decorate([
             database_component_1.DatabaseComponent,
             ip_telephony_component_1.IP_telephonyComponent,
             chat_bots_component_1.Chat_botsComponent,
+            product_component_1.ProductComponent,
             page404_component_1.NotFoundComponent
         ],
         bootstrap: [

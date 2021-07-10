@@ -3,7 +3,6 @@ var router_1 = require("@angular/router");
 var main_component_1 = require("./components/page_main/main.component");
 // import { PortfolioComponent }  from './components/page_portfolio/portfolio.component';
 var services_component_1 = require("./components/page_services/services.component");
-var website_component_1 = require("./components/page_website/website.component");
 var techs_component_1 = require("./components/page_techs/techs.component");
 // import { AboutComponent } from './components/page_about/about.component';
 var contacts_component_1 = require("./components/page_contacts/contacts.component");
@@ -14,6 +13,11 @@ var contacts_component_1 = require("./components/page_contacts/contacts.componen
 // import { BarbatorComponent } from './components/projects/barbator/barbator.component';
 var redirect_component_1 = require("./components/page_redirect/redirect.component");
 var business_component_1 = require("./components/page_business/business.component");
+var product_component_1 = require("./components/page_product/product.component");
+var website_component_1 = require("./components/page_website/website.component");
+var website_card_component_1 = require("./components/page_website_card/website_card.component");
+var website_catalog_component_1 = require("./components/page_website_catalog/website_catalog.component");
+var website_store_component_1 = require("./components/page_website_store/website_store.component");
 var profitability_component_1 = require("./components/page_profitability/profitability.component");
 var accounting_systems_component_1 = require("./components/page_accounting_systems/accounting_systems.component");
 var installation_component_1 = require("./components/page_installation/installation.component");
@@ -31,7 +35,6 @@ var appRoutes = [
     { path: '', component: main_component_1.MainComponent },
     // {path: 'portfolio', component: PortfolioComponent},
     { path: 'services', component: services_component_1.ServicesComponent },
-    { path: 'website', component: website_component_1.WebsiteComponent },
     { path: 'techs', component: techs_component_1.TechsComponent },
     // {path: 'about', component: AboutComponent},
     { path: 'contacts', component: contacts_component_1.ContactsComponent },
@@ -41,7 +44,12 @@ var appRoutes = [
     // {path: 'portfolio/barbator', component: BarbatorComponent},
     // {path: 'portfolio/bino', component: BinoComponent},
     { path: 'redirect', component: redirect_component_1.RedirectComponent },
-    { path: 'business_promotion', component: business_component_1.BusinessComponent },
+    { path: 'business', component: business_component_1.BusinessComponent },
+    { path: 'product', component: product_component_1.ProductComponent },
+    { path: 'website', component: website_component_1.WebsiteComponent },
+    { path: 'website_card', component: website_card_component_1.Website_cardComponent },
+    { path: 'website_catalog', component: website_catalog_component_1.Website_catalogComponent },
+    { path: 'website_store', component: website_store_component_1.Website_storeComponent },
     { path: 'profitability', component: profitability_component_1.ProfitabilityComponent },
     { path: 'accounting_systems', component: accounting_systems_component_1.AccountingSystemsComponent },
     { path: 'installation', component: installation_component_1.InstallationComponent },

@@ -1,20 +1,32 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
 
+
 // import { Slide } from './slide';
 // import { SlidesService } from './slides.service';
 
 declare var jQuery: any;
 // var environment = 'app/components/owl_reviews/' + template +'.component.html';
+var key  = 1;
+switch (key) {
+	case 1:
+		var tmp = 'app/components/owl_reviews/owl_reviews.component.html';
+		break;
 
-var tmp = 'app/components/owl_reviews/owl_reviews.component.html';
+	default:
+		
+		break;
+}
+
+
+
+
 @Component({
-
 	selector: 'owl-reviews',
 	// templateUrl: 'app/components/owl_reviews/owl_reviews.component.html',
 	// templateUrl: 'app/components/owl_reviews/' + this->template + '.component.html',
 	templateUrl: tmp,
 	// providers: [],
-	// template: `<template [ngTemplateOutlet]="templ" [ngOutletContext]="{isVisible: true}"></template>`
+	// template: `<template [ngTemplateOutlet]="templ" [ngOutletContext]="{isVisible: true}"></template>
 
 })
 

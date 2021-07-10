@@ -1043,7 +1043,7 @@ body{
 						font-size: 2.5em;
 					}
 					.main_text{
-						max-width: 1200px;
+						// max-width: 1200px;
 						margin: 1em auto;
 						text-align: justify;
 						font-size: 1.2em;
@@ -1359,7 +1359,7 @@ body{
 						font-size: 2.5em;
 					}
 					.main_text{
-						max-width: 1200px;
+						// max-width: 1200px;
 						margin: 1em auto;
 						text-align: justify;
 						font-size: 1.2em;
@@ -1675,7 +1675,7 @@ body{
 					font-size: 2.5em;
 				}
 				.main_text{
-					max-width: 1200px;
+					// max-width: 1200px;
 					margin: 1em auto;
 					text-align: justify;
 					font-size: 1.2em;
@@ -1819,6 +1819,7 @@ body{
 					}
 				}
 				.service_description {
+
 					overflow: auto;
 					.service_text {
 						p {
@@ -1913,39 +1914,102 @@ body{
 						}
 					}
 				}
-				.service_img{
-					text-align: center;
-					img{
-						max-width: 20%;
-					}
-				}
-				.tech {
-					// overflow: auto;
-					margin-bottom: $gap;
-					.tech_image {
-						// background: #fff;
-						float: none;
-						width: 100%;
-						padding: 0px;
-						border: 1px solid #eee;
-						padding-top: 20%;
-						padding-bottom: 20%;
-						position: static;
-						text-align: center;
-						.svg_img{
-							width: 50%;
-						}
-					}
-				}
-
+				// .service_img{
+				// 	text-align: center;
+				// 	img{
+				// 		max-width: 20%;
+				// 	}
+				// }
+				// .tech {
+				// 	// overflow: auto;
+				// 	margin-bottom: $gap;
+				// 	.tech_image {
+				// 		// background: #fff;
+				// 		float: none;
+				// 		width: 100%;
+				// 		padding: 0px;
+				// 		border: 1px solid #eee;
+				// 		padding-top: 20%;
+				// 		padding-bottom: 20%;
+				// 		position: static;
+				// 		text-align: center;
+				// 		.svg_img{
+				// 			width: 50%;
+				// 		}
+				// 	}
+				// }
 			}
 			a{
 				color: $white;
 			}
 			// a:hover {
 			// 	color: red;
-
 			// }
+
+			.banner_wrap{
+				position: relative;
+				background: $spacegray;
+				color: $white;
+				.owl-carousel{
+					background: url(/compiled/img/bg6.jpg) center no-repeat;
+					background-size: cover;
+					.banner_item{
+						background: rgba($spacegray, 0.7);
+						height: calc(100vh - 100px);
+						img{
+							@include animate(.4s);
+							width: 200px;
+							height: auto;
+							border-radius: 50%;
+							filter: grayscale(100%);
+						}
+						&:hover img{
+							filter: grayscale(0%);
+							box-shadow: 0 0 0 3px $white;
+						}
+						.banner_text{
+							position: absolute;
+							top: 20vh;
+							left: 15vw;
+							text-align: center;
+							width: 70vw;
+							height: 60vh;
+							h2{
+								font-size: 2rem;
+							}
+							p{
+								max-width: 50vw;
+								margin: 0 auto;
+								text-align: center;
+								font-size: 1.6em;
+							}
+							.bunner_btn{
+								width: 200px;
+								margin: 50px auto;
+								border: 1px solid $white;
+								display: block;
+								// position: absolute;
+								// bottom: 2em;
+								// left: calc(50% - 100px);
+							}
+						}
+					}
+					.owl-controls{
+						position: absolute;
+						bottom: 1em;
+						left: calc(50% - 60px);
+						.owl-page span{
+							background: $white;
+							opacity: 0.5;
+						}
+						.owl-page.active span,
+						.owl-page span:hover{
+							background: $white;
+							opacity: 0.9;
+						}
+					}
+				}
+			}
 		}
 		&.page_404{
 			max-width: 100%;

@@ -10,7 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 // var environment = 'app/components/owl_reviews/' + template +'.component.html';
-var tmp = 'app/components/owl_reviews/owl_reviews.component.html';
+var key = 1;
+switch (key) {
+    case 1:
+        var tmp = 'app/components/owl_reviews/owl_reviews.component.html';
+        break;
+    default:
+        break;
+}
 var OwlReviewsComponent = (function () {
     function OwlReviewsComponent(elRef) {
         this.elRef = elRef;

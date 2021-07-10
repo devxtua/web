@@ -14,7 +14,7 @@ import { TechsComponent } from './components/page_techs/techs.component';
 import { AboutComponent } from './components/page_about/about.component';
 import { ContactsComponent } from './components/page_contacts/contacts.component';
 import { ServicesComponent } from './components/page_services/services.component';
-import { WebsiteComponent } from './components/page_website/website.component';
+import { RedirectComponent } from './components/page_redirect/redirect.component';
 import { BannerComponent } from './components/owl_banner/banner.component';
 import { OwlReviewsComponent } from './components/owl_reviews/owl_reviews.component';
 import { OwlTechsComponent } from './components/owl_techs/owl_techs.component';
@@ -27,8 +27,17 @@ import { SubscribeFormComponent } from './components/form_subscribe/subscribe.co
 // import { PizzeriaComponent } from './components/projects/pizzeria_da_persio/pizzeria_da_persio.component';
 // import { BinoComponent } from './components/projects/bino/bino.component';
 // import { BarbatorComponent } from './components/projects/barbator/barbator.component';
-import { RedirectComponent } from './components/page_redirect/redirect.component';
+
 import { BusinessComponent } from './components/page_business/business.component';
+import { WebsiteComponent } from './components/page_website/website.component';
+import { ProductComponent } from './components/page_product/product.component';
+
+import { Website_cardComponent } from './components/page_website_card/website_card.component';
+import { Website_catalogComponent } from './components/page_website_catalog/website_catalog.component';
+import { Website_storeComponent } from './components/page_website_store/website_store.component';
+
+
+
 import { ProfitabilityComponent } from './components/page_profitability/profitability.component';
 import { AccountingSystemsComponent } from './components/page_accounting_systems/accounting_systems.component';
 import { InstallationComponent } from './components/page_installation/installation.component';
@@ -41,6 +50,7 @@ import { C1CComponent } from './components/page_1c/1c.component';
 import { DatabaseComponent } from './components/page_database/database.component';
 import { IP_telephonyComponent } from './components/page_ip_telephony/ip_telephony.component';
 import { Chat_botsComponent } from './components/page_chat_bots/chat_bots.component';
+
 import { NotFoundComponent } from './components/page_404/page404.component';
 
 
@@ -61,6 +71,12 @@ enableProdMode();
 		PortfolioComponent,
 		ServicesComponent,
 		WebsiteComponent,
+
+		Website_cardComponent,
+		Website_catalogComponent,
+		Website_storeComponent,
+
+
 		BannerComponent,
 		TechsComponent,
 		AboutComponent,
@@ -89,6 +105,7 @@ enableProdMode();
 		DatabaseComponent,
 		IP_telephonyComponent,
 		Chat_botsComponent,
+		ProductComponent,
 		NotFoundComponent
 
 	],
